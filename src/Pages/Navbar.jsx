@@ -13,7 +13,7 @@ export default function Navbar() {
 
     // start mobile first plus facile
     return (
-        <nav className="nav fixed top-0 w-full bg-black items-center flex p-4 z-10">
+        <nav className="fixed top-4 text-xl w-full bg-transparent items-center flex p-7 z-10">
         <div className="flex justify-between items-center w-full flex-wrap md:flex-nowrap">
             <img className="cursor-pointer" src={logo} alt="logo" />
 
@@ -27,7 +27,7 @@ export default function Navbar() {
             <ul
             className={`${
                 toggle ? " flex" : " hidden"
-            } flex-col justify-center items-center w-full first:mt-2 md:flex-row md:w-auto md:space-x-10 md:flex`}
+            } flex-col justify-center gap-6 items-center w-full first:mt-2 md:flex-row md:w-auto md:space-x-10 md:flex`}
             >
             {navbarData.map((link, index) => {
                 return (
