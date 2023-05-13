@@ -15,7 +15,7 @@ export default function Navbar() {
     return (
         <nav className="fixed top-0 w-full bg-slate-500 items-center flex p-4">
         <div className="flex justify-between items-center w-full flex-wrap md:flex-nowrap">
-            <img className="text-xl text-white font-bold cursor-pointer" src={logo} alt="logo" />
+            <img className="cursor-pointer" src={logo} alt="logo" />
 
             <button
             className="flex justify-end md:hidden ring-1 ring-black rounded"
