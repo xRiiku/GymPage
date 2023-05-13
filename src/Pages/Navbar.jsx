@@ -1,4 +1,4 @@
-/* Install react-router-dom, react-scripts, react-dom, tailwind */
+/* Install react-router-dom, react-scripts, react-dom, tailwind, awesomeIconsLink to index.html*/
 import { useState } from "react";
 import { navbarData } from "./navbarData";
 import { Link } from "react-router-dom";
