@@ -1,4 +1,5 @@
 import WhyChose from './HomeSections/WhyChose'
+import HomeOurClasses from './HomeSections/homeOurClasses'
 import Intro from './HomeSections/intro'
 
 export default function Home () {
@@ -7,6 +8,7 @@ export default function Home () {
         <div className='parent'>
             <Intro />
             <WhyChose />
-    </div>
+            <HomeOurClasses />
+        </div>
     )
 }
