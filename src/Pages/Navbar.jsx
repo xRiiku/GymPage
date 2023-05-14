@@ -13,7 +13,7 @@ export default function Navbar() {
 
     // start mobile first plus facile
     return (
-        <nav className="fixed top-4 text-xl w-full bg-transparent items-center flex p-7 z-10">
+        <nav className="fixed top-0 text-xl w-full bg-black items-center flex p-7 z-10 font-oswald">
         <div className="flex justify-between items-center w-full flex-wrap md:flex-nowrap">
             <img className="cursor-pointer" src={logo} alt="logo" />
 
