@@ -13,9 +13,9 @@ export default function WhyChose(){
                 <span className='text-white text-4xl uppercase mt-3'>Push your limits forward</span>
             </div>
 
-            <div className='parent'>
+            <div className='parent w-full'>
                     {/* CARD PARENT (Controls all 4 cards) */}
-                    <div className='cardParent gap-10 mt-16 grid grid-cols-4' >
+                    <div className='cardParent place-content-between mt-16 grid grid-cols-4' >
                         {/* CARD info (1)*/}
                         <div className=' flex flex-col justify-center items-center'>
                             <div className='rounded-full bg-zinc-800 hover:bg-orange-500  stroke-orange-500 hover:stroke-white'>
