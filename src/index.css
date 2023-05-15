@@ -3,3 +3,19 @@
 @tailwind utilities;
 
 body { background-color: black;}
+
+.cardPrices:hover {
+    background-color: black
+}
+
+.cardPrices:hover h1 {
+    color: black;
+}
+
+.cardPrices:hover p {
+    color: black;
+}
+
+.cardPrices:hover ul {
+    color: black;
+}

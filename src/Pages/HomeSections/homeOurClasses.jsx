@@ -19,9 +19,9 @@ export default function HomeOurClasses(){
 
             <div className='parent w-full'>
                 {/* CARD PARENT (Controls all 4 cards) */}
-            <div className="cardParent place-content-between mt-16 grid grid-cols-3 place-items-center gap-10">
+            <div className='cardParent place-content-between mt-16 grid grid-cols-3 place-items-center gap-10'>
                 {/* Card container (1)*/}
-                <div className="cardContainer">
+                <div className='cardContainer'>
                     <div>
                         <img className='object-cover' src={cardImg1} alt='img'></img>
                     </div>
@@ -39,7 +39,7 @@ export default function HomeOurClasses(){
                 </div>
 
                 {/* Card container (2)*/}
-                <div className="cardContainer">
+                <div className='cardContainer'>
                     <div>
                         <img className='object-cover' src={cardImg2} alt='img'></img>
                     </div>
@@ -57,7 +57,7 @@ export default function HomeOurClasses(){
                 </div>
 
                 {/* Card container (3)*/}
-                <div className="cardContainer">
+                <div className='cardContainer'>
                     <div>
                         <img className='object-cover' src={cardImg3} alt='img'></img>
                     </div>
@@ -75,7 +75,7 @@ export default function HomeOurClasses(){
                 </div>
 
                 {/* Card container (4)*/}
-                <div className="cardContainer">
+                <div className='cardContainer'>
                     <div>
                         <img className='object-cover' src={cardImg4} alt='img'></img>
                     </div>
@@ -93,7 +93,7 @@ export default function HomeOurClasses(){
                 </div>
 
                 {/* Card container (5)*/}
-                <div className="cardContainer">
+                <div className='cardContainer'>
                     <div>
                         <img className='object-cover' src={cardImg5} alt='img'></img>
                     </div>
@@ -111,7 +111,7 @@ export default function HomeOurClasses(){
                 </div>
 
                 {/* Card container (6)*/}
-                <div className="cardContainer">
+                <div className='cardContainer'>
                     <div>
                         <img className='object-cover' src={cardImg6} alt='img'></img>
                     </div>

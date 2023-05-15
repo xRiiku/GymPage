@@ -1,6 +1,7 @@
 import WhyChose from './HomeSections/WhyChose'
 import HomeOurClasses from './HomeSections/homeOurClasses'
 import Intro from './HomeSections/intro'
+import PricingPlan from './HomeSections/pricingPlan'
 
 export default function Home () {
 
@@ -9,6 +10,7 @@ export default function Home () {
             <Intro />
             <WhyChose />
             <HomeOurClasses />
+            <PricingPlan />
         </div>
     )
 }
