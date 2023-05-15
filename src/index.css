@@ -19,3 +19,8 @@ body { background-color: black;}
 .cardPrices:hover ul {
     color: black;
 }
+
+.pChoseWidth{
+    width: 30ch;
+    text-align: center;
+}

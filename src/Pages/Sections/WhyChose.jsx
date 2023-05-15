@@ -22,9 +22,7 @@ export default function WhyChose(){
                                 {bicicle} 
                             </div>
                                 <span className='text-white mt-3 text-2xl font-bold'>Equipment</span>
-                                <p className='text-white mt-5'>Lorem ipsum dolor sit amet </p> 
-                                <p className='text-white'> consectetur adipiscing elit, sed do eiusmod </p> 
-                                <p className='text-white'> tempor incididunt ut dolore facilisis.</p>
+                                <p className='text-white mt-5 pChoseWidth'>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore facilisis.</p>
                             </div>
                             
                             {/* CARD info (2)*/}
@@ -33,9 +31,7 @@ export default function WhyChose(){
                                 {food} 
                             </div>
                                 <span className='text-white mt-3 text-2xl font-bold'>Nutrition</span>
-                                <p className='text-white mt-5'>Lorem ipsum dolor sit amet </p> 
-                                <p className='text-white'> consectetur adipiscing elit, sed do eiusmod </p> 
-                                <p className='text-white'> tempor incididunt ut dolore facilisis.</p>
+                                <p className='text-white mt-5 pChoseWidth'>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore facilisis.</p>
                             </div>
                             
                             {/* CARD info (3)*/}
@@ -44,9 +40,7 @@ export default function WhyChose(){
                                 {strengh} 
                             </div>
                                 <span className='text-white mt-3 text-2xl font-bold'>Training</span>
-                                <p className='text-white mt-5'>Lorem ipsum dolor sit amet </p> 
-                                <p className='text-white'> consectetur adipiscing elit, sed do eiusmod </p> 
-                                <p className='text-white'> tempor incididunt ut dolore facilisis.</p>
+                                <p className='text-white mt-5 pChoseWidth'>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore facilisis.</p>
                             </div>
 
                             {/* CARD info (4)*/}
@@ -55,9 +49,7 @@ export default function WhyChose(){
                                 {heartBeat} 
                             </div>
                                 <span className='text-white mt-3 text-2xl font-bold'>Health</span>
-                                <p className='text-white mt-5'>Lorem ipsum dolor sit amet </p> 
-                                <p className='text-white'> consectetur adipiscing elit, sed do eiusmod </p> 
-                                <p className='text-white'> tempor incididunt ut dolore facilisis.</p>
+                                <p className='text-white mt-5 pChoseWidth'>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore facilisis.</p> 
                             </div>
                     </div>
             </div>

@@ -1,7 +1,7 @@
-import WhyChose from './HomeSections/WhyChose'
-import HomeOurClasses from './HomeSections/homeOurClasses'
-import Intro from './HomeSections/intro'
-import PricingPlan from './HomeSections/pricingPlan'
+import WhyChose from './Sections/WhyChose'
+import HomeOurClasses from './Sections/homeOurClasses'
+import Intro from './Sections/intro'
+import PricingPlan from './Sections/pricingPlan'
 
 export default function Home () {
 
