@@ -1,4 +1,5 @@
 import WhyChose from './Sections/WhyChose'
+import Footer from './Sections/footer'
 import HomeOurClasses from './Sections/homeOurClasses'
 import Info from './Sections/info'
 import Intro from './Sections/intro'
@@ -13,6 +14,7 @@ export default function Home () {
             <HomeOurClasses />
             <PricingPlan />
             <Info />
+            <Footer />
         </div>
     )
 }
