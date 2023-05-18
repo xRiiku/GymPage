@@ -12,7 +12,7 @@ export default function Info(){
                 <span className='text-white text-4xl uppercase mt-3'>Select your contact method.</span>
             </div>
 
-            <div className='parent w-full'>
+            <div className='parent w-full mt-8'>
                     {/* CARD PARENT (Controls all 4 cards) */}
                     <div className='cardParent place-content-between mt-16 grid grid-cols-3' >
                         {/* CARD info (1)*/}
@@ -32,11 +32,11 @@ export default function Info(){
                             </div>
 
                         {/* CARD info (3)*/}
-                        <div className=' flex gap-4 justify-center items-center mt-7'>
+                        <div className=' flex gap-4 justify-center items-center'>
                             <div className='rounded-full p-1 bg-orange-600 stroke-white'>
                                 {mail} 
                             </div>
-                                <p className='text-white'>Support.gymcenter@gym.com</p>
+                                <p className='text-white'>support.gymcenter@gym.com</p>
                             </div>
 
                     </div>
