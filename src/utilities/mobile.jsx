@@ -1,6 +1,4 @@
-export const mobile = <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-device-mobile" width="50" height="50" viewBox="0 0 24 24" stroke="" fill="none">
+export const mobile =<svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-phone" width="50" height="50" viewBox="0 0 24 24" stroke="" fill="none">
 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-<path d="M6 5a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-14z"></path>
-<path d="M11 4h2"></path>
-<path d="M12 17v.01"></path>
+<path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"></path>
 </svg>
