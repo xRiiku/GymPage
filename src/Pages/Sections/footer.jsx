@@ -8,7 +8,7 @@ import { mailXS } from '../../assets/icons/mail-xs.jsx'
 export default function Footer(){
 
     return(
-        <div className='flex justify-center items-center p-20'>
+        <div className='flex justify-center items-center p-20 bg-zinc-800'>
 
             <div className='parent w-full mt-8'>
                 {/* CARD PARENT (Controls all 4 cards) */}
@@ -57,11 +57,21 @@ export default function Footer(){
                         
                         <div className='mt-7'>
                             <ul className='text-white list-none cursor-pointer'>
-                                <li className='hover:opacity-60'>About</li>
-                                <li className='hover:opacity-60'>Classes</li>
-                                <li className='hover:opacity-60'>Services</li>
-                                <li className='hover:opacity-60'>Team</li>
-                                <li className='hover:opacity-60'>Contact</li>
+                                <a href='/AboutUs'>
+                                    <li className='hover:opacity-60'>About</li>
+                                </a>
+                                <a href='/Classes'>
+                                    <li className='hover:opacity-60'>Classes</li>
+                                </a>
+                                <a href='/Services'>
+                                    <li className='hover:opacity-60'>Services</li>
+                                </a>
+                                <a href='/OurTeam'>
+                                    <li className='hover:opacity-60'>Team</li>
+                                </a>
+                                <a href='/Contact'>
+                                    <li className='hover:opacity-60'>Contact</li>
+                                </a>
                             </ul>
                         </div>
                         <div className='mt-12'></div>
@@ -85,9 +95,7 @@ export default function Footer(){
                         <div className='mt-12'></div>
                     </div>
 
-
-
-                    </div>
+                </div>
             </div>
         </div>
         
