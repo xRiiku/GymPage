@@ -1,6 +1,6 @@
-import { location } from '../../utilities/location.jsx'
-import { mobile } from '../../utilities/mobile.jsx'
-import { mail } from '../../utilities/mail.jsx'
+import { location } from '../../assets/icons/location.jsx'
+import { mobile } from '../../assets/icons/mobile.jsx'
+import { mail } from '../../assets/icons/mail.jsx'
 
 export default function Info(){
 

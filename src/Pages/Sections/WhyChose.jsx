@@ -1,7 +1,7 @@
-import { bicicle } from '../../utilities/bicicle.jsx'
-import { food } from '../../utilities/food.jsx'
-import { heartBeat } from '../../utilities/heartbeat.jsx'
-import { strengh } from '../../utilities/strengh.jsx'
+import { bicicle } from '../../assets/icons/bicicle.jsx'
+import { food } from '../../assets/icons/food.jsx'
+import { heartBeat } from '../../assets/icons/heartbeat.jsx'
+import { strengh } from '../../assets/icons/strengh.jsx'
 
 export default function WhyChose(){
 

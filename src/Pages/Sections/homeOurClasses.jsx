@@ -1,4 +1,4 @@
-import { rightArrow } from '../../utilities/rightArrow.jsx'
+import { rightArrow } from '../../assets/icons/rightArrow.jsx'
 import cardImg1 from '../../assets/img/classes/class-1.jpg'
 import cardImg2 from '../../assets/img/classes/class-2.jpg'
 import cardImg3 from '../../assets/img/classes/class-3.jpg'
