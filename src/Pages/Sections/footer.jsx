@@ -8,7 +8,7 @@ import { mailXS } from '../../assets/icons/mail-xs.jsx'
 export default function Footer(){
 
     return(
-        <div className='flex justify-center items-center p-20 bg-zinc-800'>
+        <div className='flex justify-center items-center p-20 pt-0 bg-zinc-800'>
 
             <div className='parent w-full mt-8'>
                 {/* CARD PARENT (Controls all 4 cards) */}
