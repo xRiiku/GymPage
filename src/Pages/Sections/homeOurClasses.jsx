@@ -19,7 +19,7 @@ export default function HomeOurClasses(){
 
             <div className='parent w-full'>
                 {/* CARD PARENT (Controls all 4 cards) */}
-            <div className='cardParent place-content-between mt-16 grid grid-cols-3 place-items-center gap-10'>
+            <div className='cardParent place-content-between mt-16 grid grid-cols-3 place-items-center gap-10 lg:grid-cols-2'>
                 {/* Card container (1)*/}
                 <div className='cardContainer'>
                     <div>

@@ -15,7 +15,7 @@ export default function WhyChose(){
 
             <div className='parent w-full'>
                     {/* CARD PARENT (Controls all 4 cards) */}
-                    <div className='cardParent place-content-between mt-16 grid grid-cols-4' >
+                    <div className='cardParent place-content-between mt-16 grid grid-cols-4 lg:grid-cols-2 lg:gap-10' >
                         {/* CARD info (1)*/}
                         <div className=' flex flex-col justify-center items-center'>
                             <div className='rounded-full bg-zinc-800 hover:bg-orange-500  stroke-orange-500 hover:stroke-white'>
