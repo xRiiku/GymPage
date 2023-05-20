@@ -10,7 +10,7 @@ export default function PricingPlan(){
 
             <div className='parent w-full'>
                     {/* CARD PARENT (Controls all 3 cards) */}
-                    <div className='cardParent place-content-between mt-16 grid grid-cols-3 place-items-center gap-10' >
+                    <div className='cardParent place-content-between mt-16 grid grid-cols-3 place-items-center gap-10 lg:grid-cols-1' >
                         {/* CARD info (1)*/}
                         <div className='cardPrices flex flex-col justify-center items-center border-2 border-gray-500 p-10 hover:bg-white'>
                             <div>
