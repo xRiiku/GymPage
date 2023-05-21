@@ -40,6 +40,9 @@ export default {
 
       'maxsm': {'max': '640px'},
       // => @media (max-width: 640px) { ... }
+
+      'maxxs': {'max': '300px'},
+      // => @media (max-width: 300px) { ... }
     }
   },
   plugins: [],

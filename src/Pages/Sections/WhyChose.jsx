@@ -9,13 +9,13 @@ export default function WhyChose(){
         <div className='flex justify-center items-center p-20 flex-col'>
 
             <div className='flex flex-col justify-center items-center'>
-                <span className='text-orange-500 uppercase text-2xl font-bold'>Why chose us?</span>
-                <span className='text-white text-4xl uppercase mt-3'>Push your limits forward</span>
+                <span className='text-orange-500 uppercase text-2xl font-bold text-center maxxs:text-lg'>Why chose us?</span>
+                <span className='text-white text-4xl uppercase mt-3 text-center maxxs:text-xl'>Push your limits forward</span>
             </div>
 
             <div className='parent w-full'>
                     {/* CARD PARENT (Controls all 4 cards) */}
-                    <div className='cardParent place-content-between mt-16 grid grid-cols-4 lg:grid-cols-2 lg:gap-10' >
+                    <div className='cardParent place-content-between mt-16 grid grid-cols-4 maxlg:grid-cols-2 maxlg:gap-10 maxsm:grid-cols-1' >
                         {/* CARD info (1)*/}
                         <div className=' flex flex-col justify-center items-center'>
                             <div className='rounded-full bg-zinc-800 hover:bg-orange-500  stroke-orange-500 hover:stroke-white'>

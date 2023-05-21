@@ -4,17 +4,17 @@ export default function PricingPlan(){
         <div className='flex justify-center items-center p-20 flex-col'>
 
             <div className='flex flex-col justify-center items-center'>
-                <span className='text-orange-500 uppercase text-2xl font-bold'>Our plan?</span>
-                <span className='text-white text-4xl uppercase mt-3'>Choose your pricing plan</span>
+                <span className='text-orange-500 uppercase text-2xl font-bold text-center maxxs:text-lg'>Our plan?</span>
+                <span className='text-white text-4xl uppercase mt-3 text-center maxxs:text-xl'>Choose your pricing plan</span>
             </div>
 
             <div className='parent w-full'>
                     {/* CARD PARENT (Controls all 3 cards) */}
-                    <div className='cardParent place-content-between mt-16 grid grid-cols-3 place-items-center gap-10 lg:grid-cols-1' >
+                    <div className='cardParent maxxl:grid-cols-1 place-content-between mt-16 grid grid-cols-3 place-items-center gap-10' >
                         {/* CARD info (1)*/}
-                        <div className='cardPrices flex flex-col justify-center items-center border-2 border-gray-500 p-10 hover:bg-white'>
+                        <div className='cardPrices flex flex-col justify-center items-center border-2 border-gray-500 p-10 maxxs:p-5 hover:bg-white'>
                             <div>
-                                <h1 className="text-white font-bold text-3xl"> Class drop-in </h1>
+                                <h1 className="text-white font-bold text-3xl text-center"> 3 Month unlimited </h1>
                             </div>
                             <div className="justify-center items-center flex flex-col mt-4">
                                 <h2 className="text-orange-500 font-bold text-7xl">$ 39.0</h2>
@@ -35,9 +35,9 @@ export default function PricingPlan(){
                         </div>
                     
                     {/* CARD info (2)*/}
-                    <div className='cardPrices flex flex-col justify-center items-center border-2 border-gray-500 p-10 hover:bg-white'>
+                    <div className='cardPrices flex flex-col justify-center items-center border-2 border-gray-500 p-10 maxxs:p-5 hover:bg-white'>
                             <div>
-                                <h1 className="text-white font-bold text-3xl"> 6 Month unlimited </h1>
+                                <h1 className="text-white font-bold text-3xl text-center"> 6 Month unlimited </h1>
                             </div>
                             <div className="justify-center items-center flex flex-col mt-4">
                                 <h2 className="text-orange-500 font-bold text-7xl">$ 59.0</h2>
@@ -58,9 +58,9 @@ export default function PricingPlan(){
                         </div>
 
                         {/* CARD info (3)*/}
-                        <div className='cardPrices flex flex-col justify-center items-center border-2 border-gray-500 p-10 hover:bg-white'>
+                        <div className='cardPrices flex flex-col justify-center items-center border-2 border-gray-500 p-10 maxxs:p-5 hover:bg-white'>
                             <div>
-                                <h1 className="text-white font-bold text-3xl"> 12 Month unlimited </h1>
+                                <h1 className="text-white font-bold text-3xl text-center"> Full Year unlimited </h1>
                             </div>
                             <div className="justify-center items-center flex flex-col mt-4">
                                 <h2 className="text-orange-500 font-bold text-7xl">$ 99.0</h2>
