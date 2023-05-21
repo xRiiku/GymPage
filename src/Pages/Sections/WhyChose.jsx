@@ -8,9 +8,9 @@ export default function WhyChose(){
     return(
         <div className='flex justify-center items-center p-20 flex-col'>
 
-            <div className='flex flex-col justify-center items-center'>
-                <span className='text-orange-500 uppercase text-2xl font-bold text-center maxxs:text-lg'>Why chose us?</span>
-                <span className='text-white text-4xl uppercase mt-3 text-center maxxs:text-xl'>Push your limits forward</span>
+            <div className='flex flex-col justify-center items-center text-center'>
+                <span className='text-orange-500 uppercase text-2xl font-bold maxxs:text-lg'>Why chose us?</span>
+                <span className='text-white text-4xl uppercase mt-3 maxxs:text-xl'>Push your limits forward</span>
             </div>
 
             <div className='parent w-full'>

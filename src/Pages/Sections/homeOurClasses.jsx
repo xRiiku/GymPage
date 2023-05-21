@@ -12,14 +12,14 @@ export default function HomeOurClasses(){
     return(
         <div className='p-20'>
 
-            <div className='flex flex-col justify-center items-center'>
-                <span className='text-orange-500 uppercase text-2xl font-bold'>Our Classes?</span>
-                <span className='text-white text-4xl uppercase mt-3'>What we can offer</span>
+            <div className='flex flex-col justify-center items-center text-center'>
+                <span className='text-orange-500 uppercase text-2xl font-bold maxxs:text-lg'>Our Classes?</span>
+                <span className='text-white text-4xl uppercase mt-3 maxxs:text-xl'>What we can offer</span>
             </div>
 
             <div className='parent w-full'>
                 {/* CARD PARENT (Controls all 4 cards) */}
-            <div className='cardParent place-content-between mt-16 grid grid-cols-3 place-items-center gap-10 lg:grid-cols-2'>
+            <div className='cardParent place-content-between mt-16 grid grid-cols-3 place-items-center gap-10 maxlg:grid-cols-2 maxsm:grid-cols-1'>
                 {/* Card container (1)*/}
                 <div className='cardContainer'>
                     <div>

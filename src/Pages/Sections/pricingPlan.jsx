@@ -3,9 +3,9 @@ export default function PricingPlan(){
     return(
         <div className='flex justify-center items-center p-20 flex-col'>
 
-            <div className='flex flex-col justify-center items-center'>
-                <span className='text-orange-500 uppercase text-2xl font-bold text-center maxxs:text-lg'>Our plan?</span>
-                <span className='text-white text-4xl uppercase mt-3 text-center maxxs:text-xl'>Choose your pricing plan</span>
+            <div className='flex flex-col justify-center items-center text-center'>
+                <span className='text-orange-500 uppercase text-2xl font-bold maxxs:text-lg'>Our plan?</span>
+                <span className='text-white text-4xl uppercase mt-3 maxxs:text-xl'>Choose your pricing plan</span>
             </div>
 
             <div className='parent w-full'>
