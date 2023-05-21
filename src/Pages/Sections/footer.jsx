@@ -12,7 +12,7 @@ export default function Footer(){
 
             <div className='parent w-full mt-8'>
                 {/* CARD PARENT (Controls all 4 cards) */}
-                <div className='cardParent place-content-between mt-16 grid grid-cols-3' >
+                <div className='cardParent place-content-between mt-16 grid grid-cols-3 maxmd:grid-cols-1' >
                     {/* CARD info (1)*/}
                     <div className=' flex flex-col gap-4 justify-center items-center'>
                         <div className='flex justify-center items-center'>
@@ -50,12 +50,12 @@ export default function Footer(){
                     </div>
 
                         {/* CARD info (2)*/}
-                        <div className=' flex flex-col gap-4 justify-center items-center'>
+                        <div className=' flex flex-col gap-4 justify-center items-center maxmd:mt-10'>
                         <div className='flex justify-center items-center'>
-                            <p className='text-white text-3xl font-bold'>Useful links</p>
+                            <p className='text-white text-3xl font-bold text-center'>Useful links</p>
                         </div>
                         
-                        <div className='mt-7'>
+                        <div className='mt-7 maxmd:mt-2'>
                             <ul className='text-white list-none cursor-pointer'>
                                 <a href='/AboutUs'>
                                     <li className='hover:opacity-60'>About</li>
@@ -80,10 +80,10 @@ export default function Footer(){
                     {/* CARD info (3)*/}
                     <div className=' flex flex-col gap-4 justify-center items-center'>
                         <div className='flex justify-center items-center'>
-                            <p className='text-white text-3xl font-bold'>Support</p>
+                            <p className='text-white text-3xl font-bold text-center'>Support</p>
                         </div>
                         
-                        <div className='mt-7'>
+                        <div className='mt-7 maxmd:mt-2'>
                             <ul className='text-white list-none cursor-pointer'>
                                 <li className='hover:opacity-60'>Login</li>
                                 <li className='hover:opacity-60'>My Account</li>
