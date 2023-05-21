@@ -11,20 +11,35 @@ export default {
       'body': ['Open Sans'],
     },
     screens: {
-      '2xl': {'max': '1536px'},
-      // => @media (max-width: 1535px) { ... }
+      'min2xl': {'min': '1536px'},
+      // => @media (min-width: 1536px) { ... }
 
-      'xl': {'max': '1280px'},
-      // => @media (max-width: 1279px) { ... }
+      'minxl': {'min': '1280px'},
+      // => @media (min-width: 1280px) { ... }
 
-      'lg': {'max': '1024px'},
-      // => @media (max-width: 1023px) { ... }
+      'minlg': {'min': '1080px'},
+      // => @media (min-width: 1080px) { ... }
 
-      'md': {'max': '768px'},
-      // => @media (max-width: 767px) { ... }
+      'minmd': {'min': '768px'},
+      // => @media (min-width: 768px) { ... }
 
-      'sm': {'max': '640px'},
-      // => @media (max-width: 639px) { ... }
+      'minsm': {'min': '640px'},
+      // => @media (min-width: 640px) { ... }
+
+      'max2xl': {'max': '1536px'},
+      // => @media (max-width: 1536px) { ... }
+
+      'maxxl': {'max': '1280px'},
+      // => @media (max-width: 1280px) { ... }
+
+      'maxlg': {'max': '1024px'},
+      // => @media (max-width: 1024px) { ... }
+
+      'maxmd': {'max': '768px'},
+      // => @media (max-width: 768px) { ... }
+
+      'maxsm': {'max': '640px'},
+      // => @media (max-width: 640px) { ... }
     }
   },
   plugins: [],
