@@ -4,11 +4,12 @@ export default function Intro() {
 
     return (
             /* Body img */
-            <div className='relative'>
-    <div className='relative inset-0 inline-block w-full h-full'>
+    <div className='relative h-[50vh]'>
+        <div className='relative inset-0 inline-block w-full h-full'>
         <img
         src={bgImg}
         alt='background'
+        className='object-cover maxmd:h-[50vh] maxlg:h-[50vh] w-full h-full'
         />
     </div>
     {/* Text info */}
