@@ -1,3 +1,4 @@
+import OurTeam from './Pages/OurTeam.jsx';
 import AboutUs from './Pages/AboutUs.jsx';
 import Home from './Pages/Home.jsx';
 import Navbar from './Pages/Navbar.jsx';
@@ -14,6 +15,7 @@ export default function App() {
         <Route path='/' element={ <Home /> } />
         <Route path='/home' element={ <Home /> } />
         <Route path='/aboutus' element={ <AboutUs /> } />
+        <Route path='/ourteam' element={ <OurTeam /> } />
       </Routes>
     </Router>
     </div>

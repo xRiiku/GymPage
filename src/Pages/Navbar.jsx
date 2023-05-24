@@ -1,6 +1,6 @@
 /* Install react-router-dom, react-scripts, react-dom, tailwind, awesomeIconsLink to index.html*/
 import { useState } from 'react';
-import { navbarData } from './navbarData';
+import { navbarData } from '../assets/utilities/navbarData';
 import { Link } from 'react-router-dom';
 import logo from '../assets/img/logo.png'
 

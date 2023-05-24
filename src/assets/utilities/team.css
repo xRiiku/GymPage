@@ -1,0 +1,39 @@
+.teamParent {
+    position: relative;
+}
+
+.teamCard:hover .overlay {
+    opacity: 1;
+}
+
+.teamCard .overlay {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+.teamCard .overlay span,
+.teamCard .overlay p {
+    display: none;
+}
+
+.teamCard:hover .overlay span,
+.teamCard:hover .overlay p {
+    display: block;
+}
+
+@media screen and (max-width: 368px) {
+    .pChoseWidth{
+        width: 20ch;
+    }
+    
+}
