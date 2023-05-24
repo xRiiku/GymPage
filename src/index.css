@@ -24,3 +24,15 @@ body { background-color: black;}
     width: 30ch;
     text-align: center;
 }
+
+.pChoseWidthTeam{
+    width: 30ch;
+    text-align: center;
+}
+
+@media screen and (max-width: 368px){
+    .pChoseWidthTeam{
+        width: 20ch;
+    }
+    
+}
