@@ -14,12 +14,12 @@ export default function App() {
       <Router>
         <Navbar />
       <Routes>
-        <Route path='/' element={ <Home /> } />
-        <Route path='/home' element={ <Home /> } />
-        <Route path='/aboutus' element={ <AboutUs /> } />
-        <Route path='/classes' element={ <Classes /> } />
-        <Route path='/ourteam' element={ <OurTeam /> } />
-        <Route path='/contact' element={ <Contact /> } />
+        <Route path='/GymPage/index.html' element={ <Home /> } />
+        <Route path='/GymPage/home' element={ <Home /> } />
+        <Route path='/GymPage/aboutus' element={ <AboutUs /> } />
+        <Route path='/GymPage/classes' element={ <Classes /> } />
+        <Route path='/GymPage/ourteam' element={ <OurTeam /> } />
+        <Route path='/GymPage/contact' element={ <Contact /> } />
       </Routes>
     </Router>
     </div>
