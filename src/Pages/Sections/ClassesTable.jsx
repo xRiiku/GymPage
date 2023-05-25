@@ -1,11 +1,11 @@
 export default function ClassesTable() {
-    const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+    const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
     const classHours = [
         '09:00 - 10:00',
-        '11:00 - 12:00',
-        '13:00 - 14:00',
+        '12:00 - 13:00',
         '15:00 - 16:00',
-        '17:00 - 18:00',
+        '18:00 - 19:00',
+        '21:00 - 22:00',
     ];
 
     const classNames = [
@@ -18,7 +18,7 @@ export default function ClassesTable() {
     ];
 
     return (
-        <div className='p-20'>
+        <div className='p-20 '>
         <div className='flex flex-col justify-center items-center text-center'>
             <span className='text-orange-500 uppercase text-2xl font-bold maxxs:text-lg'>
             Directed classes
@@ -27,9 +27,9 @@ export default function ClassesTable() {
             Come to any class
             </span>
         </div>
-        <div className='overflow-x-auto mt-10'>
-            <div className='w-full h-full'>
-            <table className='w-full min-w-full divide-y divide-gray-200 border border-gray-200'>
+        <div className='overflow-x-auto mt-10 flex justify-center items-center'>
+            <div className='justify-center items-center flex'>
+            <table className='w-full divide-y divide-gray-200 border border-gray-200'>
                 <thead>
                 <tr>
                     <th className='px-6 py-3 bg-orange-500 text-center text-xs font-medium text-white uppercase tracking-wider border border-gray-200'>
