@@ -1,3 +1,4 @@
+import Classes from './Pages/Classes.jsx';
 import OurTeam from './Pages/OurTeam.jsx';
 import AboutUs from './Pages/AboutUs.jsx';
 import Home from './Pages/Home.jsx';
@@ -15,6 +16,7 @@ export default function App() {
         <Route path='/' element={ <Home /> } />
         <Route path='/home' element={ <Home /> } />
         <Route path='/aboutus' element={ <AboutUs /> } />
+        <Route path='/classes' element={ <Classes /> } />
         <Route path='/ourteam' element={ <OurTeam /> } />
       </Routes>
     </Router>
