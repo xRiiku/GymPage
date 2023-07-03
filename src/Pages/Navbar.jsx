@@ -15,7 +15,7 @@ export default function Navbar() {
     return (
         <nav className='fixed top-0 text-xl w-full bg-black items-center flex p-7 z-20 font-oswald'>
         <div className='flex justify-between items-center w-full flex-wrap minlg:flex-nowrap'>
-            <a href='/GymPage/index.html'>
+            <a href='/'>
                 <img className='cursor-pointer' src={logo} alt='logo' />
             </a>
 
